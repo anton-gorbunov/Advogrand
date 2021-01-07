@@ -1,0 +1,23 @@
+.button{
+    display:block;
+    border-radius: 5px;
+    background-color: #0f0f0f;
+    background-image: linear-gradient(to top, #c10b0b 0%, #e42626 100%);
+    text-align: center;
+    font-weight: 700;
+    border:none;
+    color: #ffffff;
+    &:focus{
+        outline: none;
+    }
+    &_min{
+        width: 140px;
+        height: 30px;
+        font-size: 11px;
+    }
+    &_big{
+        font-size: 17px;
+        width: 299px;
+        height: 65px;
+    }
+}

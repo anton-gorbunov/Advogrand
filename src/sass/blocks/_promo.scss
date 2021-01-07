@@ -1,0 +1,30 @@
+.promo{
+    min-height:610px;
+    padding:130px 0;
+    background:url(../img/main_bg.jpg) center center / cover no-repeat;
+    &__title{
+        width: 500px;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: left;
+        span{
+            font-size: 38px;
+            text-transform: uppercase;
+        }
+    }
+    &__subtitle{
+        margin-top: 55px;
+        width:400px;
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 300;
+        text-align: left;
+        span{
+            font-weight: 700;
+        }
+    }
+    &__btn{
+        margin-top: 55px;
+    }
+}

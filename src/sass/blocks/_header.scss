@@ -1,0 +1,85 @@
+.header{
+    padding: 10px 0 10px 0;
+    &__top{
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        
+    }
+    &__phone{
+        display: block;
+        color: #1c1c1c;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        margin-right: 12px;
+        &:hover{
+            color:#1c1c1c;
+            text-decoration: none;
+        }
+    }
+    &__list{
+        width:585px;
+        padding-left: 0;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__link{
+        display:block;
+        color: #1c1c1c;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        &:hover{
+            color: #1c1c1c;
+        }
+    }
+    &__line{
+        margin-top: 10px;
+        width: 100%;
+        height: 1px;
+        background-color: #f4f4f4;
+    }
+    &__bottom{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    &__descr{
+        color: #1c1c1c;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        margin-left: 120px;
+    }
+    &__phone-big{
+        display:block;
+        color: #1c1c1c;
+        font-size: 17px;
+        font-weight: 700;
+        text-align: right;
+        margin-left: 30px;
+        &:hover{
+            color:#1c1c1c;
+            text-decoration: none;
+        }
+    }
+    &-icons{
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        width:90px;
+        &__block{
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid $main-color;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+    }
+}

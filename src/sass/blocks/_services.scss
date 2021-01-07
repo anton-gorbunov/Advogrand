@@ -1,0 +1,30 @@
+.services{
+    padding:100px 0;
+    &__wrapper{
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows:repeat(3,50px);
+        grid-auto-rows: 50px;
+        justify-items: center;
+        column-gap:90px;
+        row-gap:90px;
+    }
+    &-block{
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content:flex-start;
+        &__icon{
+            width:46px;
+        }
+        &__descr{
+            margin-left: 26px;
+            max-width:190px;
+            color: #1c1c1c;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: left;
+        }
+    }
+}

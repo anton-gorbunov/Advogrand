@@ -1,0 +1,31 @@
+.support{
+    padding:100px 0;
+    background-color: #f5f5f5;
+    &__wrapper{
+        margin-top: 85px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows:auto;
+        grid-auto-rows: auto;
+        column-gap:70px;
+    }
+    &-block{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        &__icon{
+            height:90px;
+        }
+        &__descr{
+            margin-top: 54px;
+            color: #1c1c1c;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: center;
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+}

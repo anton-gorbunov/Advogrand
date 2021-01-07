@@ -1,0 +1,22 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'base/variables';
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width:960px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/services';
+@import 'blocks/titles';
+@import 'blocks/about';
+@import 'blocks/support';
+@import 'blocks/advantages';
+@import 'blocks/consultation';
