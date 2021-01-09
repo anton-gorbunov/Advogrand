@@ -1,5 +1,6 @@
 .modal{
     display:none;
+    z-index: 20;
     &_active{
         display:block;
     }
@@ -9,7 +10,7 @@
         height:100%;
         position: fixed;
         top:0;
-        z-index:10;
+        z-index: 20;
     }
 
     &__content{
@@ -19,6 +20,7 @@
         background-color: #ffffff;
         position:relative;
         padding: 30px 0;
+        z-index:10;
     }
     &__close{
         font-size: 40px;

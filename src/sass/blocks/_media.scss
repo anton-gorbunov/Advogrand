@@ -525,6 +525,9 @@
         &__form{
             width:240px;
         }
+        &__video{
+            padding:15px;
+        }
         
     }
     
@@ -546,6 +549,11 @@
         }
         &-block{
             border:none;
+        }
+    }
+    .modal{
+        &__frame{
+            height:200px;
         }
     }
 }

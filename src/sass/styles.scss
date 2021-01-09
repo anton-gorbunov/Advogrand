@@ -12,8 +12,9 @@
 }
 .fade{
     animation-name:fade;
-    animation-duration:1.5s
+    animation-duration:1s;
 }
+
 
 @import 'blocks/animation';
 @import 'blocks/header';
@@ -32,4 +33,5 @@
 @import 'blocks/contacts';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/upBtn';
 @import 'blocks/media';

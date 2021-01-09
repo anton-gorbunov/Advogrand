@@ -9,7 +9,7 @@ module.exports = {
     chunkLoading: false,
     wasmLoading: false,
     filename: 'bundle.js',
-    path: __dirname + '/src/js'
+    path: __dirname + '/dist/js'
   },
   watch: true,
 

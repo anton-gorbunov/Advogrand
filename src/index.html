@@ -31,7 +31,7 @@
     <title>Advogrand</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="up">
         <div class="header__fixed">
            <div class="header__hamburger">
                 <span></span>
@@ -46,27 +46,27 @@
                     <nav>
                         <ul class="header__list">
                             <li class="header__item">
-                                <a href="#" class="header__link">Как мы работаем</a>
+                                <a href="#support" class="header__link">Как мы работаем</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Преимущества</a>
+                                <a href="#advantages" class="header__link">Преимущества</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Отзывы</a>
+                                <a href="#comments" class="header__link">Отзывы</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Тарифы</a>
+                                <a href="#rate" class="header__link">Тарифы</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Партнеры</a>
+                                <a href="#partners" class="header__link">Партнеры</a>
                             </li>
                             <li class="header__item">
-                                <a href="#" class="header__link">Контакты</a>
+                                <a href="#contacts" class="header__link">Контакты</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <button class="header__button button button_min">Перезвоните мне</button>
+                <button class="header__button button button_min" data-call>Перезвоните мне</button>
             </div>
         </div>
         <div class="header__line"></div>
@@ -94,7 +94,7 @@
                 – <span>Advogrand</span> на связи<br>
                 всего <span>за 12 рублей в день</span>
             </h2>
-            <button class="promo__btn button button_big">Хочу «личного юриста»!</button>
+            <button class="promo__btn button button_big" data-call>Хочу «личного юриста»!</button>
         </div>
     </section>
 
@@ -194,7 +194,7 @@
         </div>
     </section>
 
-    <section class="support">
+    <section class="support" id="support">
         <div class="container">
             <h2 class="support__title title">Как оказывается услуга</h2>
             <div class="support__wrapper">
@@ -226,7 +226,7 @@
         </div>
     </section>
 
-    <section class="advantages">
+    <section class="advantages" id="advantages">
         <div class="container">
             <h2 class="advantages__title title">
                 Преимущество сервиса Advogrand по сравнению с другими юридическими компаниями
@@ -290,7 +290,7 @@
                             </div>
                             <div class="advantages-users__descr"><span>13 500</span>- предпринимателей</div>
                         </div>
-                        <button class="advantages__button button button_big">Узнать больше!</button>
+                        <button class="advantages__button button button_big" data-question>Узнать больше!</button>
                     </div>
                 </div>
             </div>
@@ -329,7 +329,7 @@
         </div>
     </section>
 
-    <section class="comments">
+    <section class="comments" id="comments">
         <div class="container">
             <h2 class="comments__title title">Отзывы</h2>
             <ul class="comments__menu">
@@ -346,76 +346,76 @@
                         <img src="img/video/1.jpg" alt="comments_video" class="comments-block__main">
                         <img src="icons/play.png" alt="play" class="comments-block__play">
                     </div>
-                    <a class="comments-block__link">Видео Малого Бизнеса Адвокаты, Юристы</a>
+                    <a href="#" data-url="f2iGqgaNz5I" class="comments-block__link">Видео Малого Бизнеса Адвокаты, Юристы</a>
                 </div>
                 <div class="comments-block all buisness">
                     <div class="comments-block__img">
                         <img src="img/video/2.jpg" alt="comments_video" class="comments-block__main">
                         <img src="icons/play.png" alt="play" class="comments-block__play">
                     </div>
-                    <a class="comments-block__link">Отзыв клиентки, успешный бизнесс</a>
+                    <a href="#" data-url="inSbQH0p8vw" class="comments-block__link">Отзыв клиентки, успешный бизнесс</a>
                 </div>
                 <div class="comments-block all buisness">
                     <div class="comments-block__img">
                         <img src="img/video/3.jpg" alt="comments_video" class="comments-block__main">
                         <img src="icons/play.png" alt="play" class="comments-block__play">
                     </div>
-                    <a class="comments-block__link">Отзыв Марии Коноваловой</a>
+                    <a href="#" data-url="8Pa06pmSM3U" class="comments-block__link">Отзыв Марии Коноваловой</a>
                 </div>
                 <div class="comments-block all medicine">
                     <div class="comments-block__img">
                         <img src="img/video/4.jpg" alt="comments_video" class="comments-block__main">
                         <img src="icons/play.png" alt="play" class="comments-block__play">
                     </div>
-                    <a class="comments-block__link">Отзыв Медсестры</a>
+                    <a href="#" data-url="Dy6Sr8xKfBI" class="comments-block__link">Отзыв Медсестры</a>
                 </div>
                 <div class="comments-block all medicine">
                     <div class="comments-block__img">
                         <img src="img/video/5.jpg" alt="comments_video" class="comments-block__main">
                         <img src="icons/play.png" alt="play" class="comments-block__play">
                     </div>
-                    <a class="comments-block__link">Доктора благодарят нашу компанию</a>
+                    <a href="#" data-url="HeBEwUkMQUo" class="comments-block__link">Доктора благодарят нашу компанию</a>
                 </div>
                 <div class="comments-block all family">
                     <div class="comments-block__img">
                         <img src="img/video/6.jpg" alt="comments_video" class="comments-block__main">
                         <img src="icons/play.png" alt="play" class="comments-block__play">
                     </div>
-                    <a class="comments-block__link">Семья довольна!</a>
+                    <a href="#" data-url="CkxDv5TItPM" class="comments-block__link">Семья довольна!</a>
                 </div>
                 <div class="comments-block all family">
                     <div class="comments-block__img">
                         <img src="img/video/7.jpg" alt="comments_video" class="comments-block__main">
                         <img src="icons/play.png" alt="play" class="comments-block__play">
                     </div>
-                    <a class="comments-block__link">Семья Медведевых</a>
+                    <a href="#" data-url="GVy3Xa9KXd4" class="comments-block__link">Семья Медведевых</a>
                 </div>
                 <div class="comments-block all service">
                     <div class="comments-block__img">
                         <img src="img/video/8.jpg" alt="comments_video" class="comments-block__main">
                         <img src="icons/play.png" alt="play" class="comments-block__play">
                     </div>
-                    <a class="comments-block__link">Успех в деле о ЖКХ</a>
+                    <a href="#" data-url="akipbedO6Og" class="comments-block__link">Успех в деле о ЖКХ</a>
                 </div>
                 <div class="comments-block all realty">
                     <div class="comments-block__img">
                         <img src="img/video/9.jpg" alt="comments_video" class="comments-block__main">
                         <img src="icons/play.png" alt="play" class="comments-block__play">
                     </div>
-                    <a class="comments-block__link">В новую квартиру!</a>
+                    <a href="#" data-url="OxVkqgbjraU" class="comments-block__link">В новую квартиру!</a>
                 </div>
                 <div class="comments-block all realty">
                     <div class="comments-block__img">
                         <img src="img/video/10.jpg" alt="comments_video" class="comments-block__main">
                         <img src="icons/play.png" alt="play" class="comments-block__play">
                     </div>
-                    <a class="comments-block__link">Отзыв одного клиента, который чуть не потерял жильё</a>
+                    <a href="#" data-url="UK6qLei2UK8" class="comments-block__link">Отзыв одного клиента, который чуть не потерял жильё</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="partners">
+    <section class="partners" id="partners">
         <div class="container">
             <h2 class="partners__title title">Партнеры Advogrand</h2>
             <div class="partners__slider">
@@ -453,7 +453,7 @@
         </div>
     </section>
 
-    <section class="rate">
+    <section class="rate" id="rate">
         <div class="container">
             <h2 class="title rate__title">Выберите тариф</h2>
             <div class="rate__subtitle">
@@ -464,7 +464,7 @@
                 <div class="rate__descr">Выберите годовую карту, которая Вам подходит:</div>
                 <div class="rate__package">
                     <ul class="rate__list">
-                        <li class="rate__item">Сравнить тарифы</li>
+                        <li class="rate__item rate__comparsion">Сравнить тарифы</li>
                         <li class="rate__item rate__item_active">тарифы</li>
                     </ul>
                 </div>
@@ -502,8 +502,8 @@
                     <div class="rate-price">
                         <div class="rate-price__title">Цена:</div>
                         <div class="rate-price__num">65 $ за год</div>
-                        <button class="rate-price__btn btn-price btn_orange">Консультация</button>
-                        <button class="rate-price__btn btn-price btn_buy">Купить</button>
+                        <button class="rate-price__btn btn-price btn_orange" data-question>Консультация</button>
+                        <button class="rate-price__btn btn-price btn_buy" data-call>Купить</button>
                     </div>
                 </div>
                 <div class="rate-block">
@@ -542,8 +542,8 @@
                     <div class="rate-price">
                         <div class="rate-price__title">Цена:</div>
                         <div class="rate-price__num">130 $ за год</div>
-                        <button class="rate-price__btn btn-price btn_green">Консультация</button>
-                        <button class="rate-price__btn btn-price btn_buy">Купить</button>
+                        <button class="rate-price__btn btn-price btn_green" data-question>Консультация</button>
+                        <button class="rate-price__btn btn-price btn_buy" data-call>Купить</button>
                     </div>
                 </div>
                 <div class="rate-block">
@@ -582,15 +582,15 @@
                     <div class="rate-price">
                         <div class="rate-price__title">Цена:</div>
                         <div class="rate-price__num">265 $ за год</div>
-                        <button class="rate-price__btn btn-price btn_blue">Консультация</button>
-                        <button class="rate-price__btn btn-price btn_buy">Купить</button>
+                        <button class="rate-price__btn btn-price btn_blue" data-question>Консультация</button>
+                        <button class="rate-price__btn btn-price btn_buy" data-call>Купить</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="contacts__form">
@@ -640,7 +640,7 @@
         </div>
     </footer>
 
-    <div class="modal">
+    <div class="modal modalConsult">
         <div class="modal__dialog">
 			<div class="modal__content modal__question">
                 <div class="modal__close data-close">&times;</div>
@@ -662,7 +662,7 @@
         </div>
     </div>
 
-    <div class="modal">
+    <div class="modal modalCall">
         <div class="modal__dialog">
 			<div class="modal__content modal__consultation">
                 <div class="modal__close data-close">&times;</div>
@@ -681,17 +681,17 @@
         </div>
     </div>
 
-    <div class="modal">
+    <div class="modal modalVideo">
         <div class="modal__dialog">
 			<div class="modal__content modal__video">
                 <div class="modal__close data-close">&times;</div>
-                <div class="modal__title">Козни недобросоветсного риелтора</div>
-                <div class="modal__frame">
+                <div class="modal__frame" id="frame">
 
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <a href="#up" class="pageup"><img src="icons/top.png" alt="totop"></a>
+    <script src="js/bundle.js"></script>
 </body>
 </html>

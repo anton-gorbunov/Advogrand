@@ -11,9 +11,10 @@
         margin:0 auto;
     }
     &__inner{
-        width:200%;
         display:flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+        width:1760px;
     }
     &__prev, &__next{
         font-size: 40px;

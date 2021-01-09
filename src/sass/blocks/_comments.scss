@@ -32,13 +32,14 @@
         margin-top: 70px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows:repeat(4,260px);
+        grid-template-rows:auto;
         grid-auto-rows: auto;
         column-gap:20px;
         row-gap:20px;
     }
     &-block{
         width: 300px;
+        cursor: pointer;
         &__img{
             position: relative;
             height: 210px;
