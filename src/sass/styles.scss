@@ -7,10 +7,15 @@
 }
 
 .container{
-    width:960px;
+    max-width:960px;
     margin: 0 auto;
 }
+.fade{
+    animation-name:fade;
+    animation-duration:1.5s
+}
 
+@import 'blocks/animation';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/promo';
@@ -20,3 +25,11 @@
 @import 'blocks/support';
 @import 'blocks/advantages';
 @import 'blocks/consultation';
+@import 'blocks/comments';
+@import 'blocks/partners';
+@import 'blocks/rate';
+@import 'blocks/forms';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/media';

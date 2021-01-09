@@ -20,4 +20,37 @@
         width: 299px;
         height: 65px;
     }
+    &_form{
+        width: 320px;
+        height: 65px;
+        font-size: 17px;
+    }
+}
+.btn{
+    &-price{
+        display: block;
+        width: 180px;
+        height: 55px;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        border:none;
+        &:focus{
+            outline: none;
+        }
+    }
+    &_orange{
+        background-image: linear-gradient(to top, #ff2e00 0%, #ff4c25 100%);
+    }
+    &_green{
+        background-image: linear-gradient(to top, #008e00 0%, #00a300 100%);
+    }
+    &_blue{
+        background-image: linear-gradient(to top, #001c67 0%, #02388f 100%);
+    }
+    &_buy{
+        background-color: #9a9a9a;
+    }
 }

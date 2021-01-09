@@ -1,0 +1,177 @@
+.rate{
+    background-color: #f5f5f5;
+    padding:100px 0;
+    &__title{
+        text-align: left;
+    }
+    &__subtitle{
+        width: 625px;
+        margin-top: 30px;
+        color: #313131;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+    }
+    &__rates{
+        margin-top: 35px;
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+        align-self: center;
+    }
+    &__descr{
+        color: #313131;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        line-height: 28px;
+    }
+    &__list{
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        display:flex;
+        width:270px;
+        align-items: center;
+    }
+    &__item{
+        padding:5px 10px;
+        color: #313131;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+        &_active{
+            border-radius: 5px;
+            border: 2px solid $main-color;
+            color:$main-color;
+        }
+    }
+    &__wrapper{
+        margin-top: 30px;
+        background-color:#fff;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(3,340px);
+        grid-auto-rows: auto;
+        border: 1px solid #e8e8e8;
+        &_active{
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows:auto;
+            border:none;
+            .rate-block{
+                grid-template-columns: 1fr;
+                grid-template-rows:auto 280px 290px;
+                border: 1px solid #e8e8e8;
+                &:nth-child(3){
+                    border-bottom: 1px solid #e8e8e8;
+                }
+            }
+            .rate-card{
+                &__title{
+                    text-align: center;
+                    margin-top: 40px;
+                }
+            }
+            .rate-descr{
+                margin-top: 30px;
+                &__table{
+                    td{
+                        font-size: 10px;
+                        padding:12px 10px;
+                    }
+                }
+            }
+            .rate-price{
+                margin-top: 34px;
+            }
+        }
+    }
+    &-block{
+        display: grid;
+        grid-template-columns: 270px 400px 270px;
+        grid-template-rows:auto;
+        grid-auto-rows: auto;
+        column-gap:10px;
+        border-bottom: 1px solid #e8e8e8;
+        &:nth-child(3){
+            border-bottom: none;
+        }
+    }
+    &-card{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        &__title{
+            margin-top: 52px;
+            color: #000000;
+            font-size: 20px;
+            font-weight: 400;
+            text-align: left;
+            width:200px;
+            span{
+                font-weight: 700;
+            }
+        }
+        &__img{
+            margin-top: 30px;
+            width:200px;
+            img{
+                width:100%;
+            }
+        }
+    }
+    &-descr{
+        margin-top: 50px;
+        justify-self: center;
+        &__table{
+            width:100%;
+            tr{
+                border-top:1px solid  #f5f5f5;
+                
+            }
+            tr:last-child{
+                border-bottom: 1px solid#f5f5f5;
+                
+            }
+            td{
+                color: #000000;
+                font-size: 12px;
+                font-weight: 400;
+                text-align: left;
+                padding:12px 15px;
+                
+            }
+            td.rate__bold{
+                font-weight: 700;
+            }
+            td:nth-child(2){
+                font-weight: 700;
+            }
+        }
+    }
+    
+    &-price{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        margin-top: 70px;
+        &__title{
+            color: #000000;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: center;
+        }
+        &__num{
+            margin-top: 7px;
+            color: #000000;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 34px;
+        }
+        &__btn{
+            margin-bottom: 15px;
+        }
+    }
+}

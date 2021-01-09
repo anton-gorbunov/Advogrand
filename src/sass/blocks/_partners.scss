@@ -1,0 +1,36 @@
+.partners{
+    padding:100px 0;
+    &__slider{
+        position:relative;
+    }
+    &__wrapper{
+        margin-top: 70px;
+        position: relative;
+        overflow: hidden;
+        width:880px;
+        margin:0 auto;
+    }
+    &__inner{
+        width:200%;
+        display:flex;
+        justify-content: space-between;
+    }
+    &__prev, &__next{
+        font-size: 40px;
+        color:#D4D4D4;
+        position:absolute;
+        top:50%;
+        transform: translateY(-50%);
+        &:hover{
+            text-decoration: none;
+            color:$main-color;
+        }
+
+    }
+    &__prev{
+        left:10px;
+    }
+    &__next{
+        right:10px;
+    }   
+}

@@ -1,5 +1,11 @@
 .header{
     padding: 10px 0 10px 0;
+    &__fixed{
+        display:none;
+    }
+    &__overlay{
+        display: none;
+    }
     &__top{
         display: flex;
         align-items:center;
